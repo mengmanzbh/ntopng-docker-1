@@ -6,7 +6,7 @@ RUN  \
   apt-get update \
   && apt-get install -y -q wget \
   && cd /tmp \
-  && wget --quiet http://apt.ntop.org/16.04/all/apt-ntop.deb \
+  && wget --quiet http://apt-stable.ntop.org/18.04/all/apt-ntop-stable.deb \
   && apt-get install -y -q /tmp/apt-ntop.deb \
   && apt-get update \
   && apt-get install --no-install-recommends --no-install-suggests -y -q pfring nprobe ntopng ntopng-data \
